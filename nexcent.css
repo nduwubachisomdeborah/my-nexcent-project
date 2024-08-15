@@ -1,0 +1,1059 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* navbar begins here */
+.parentdiv {
+  height: 12vh;
+  display: flex;
+  background-color: white;
+  background-position: fixed;
+  /* flex-wrap: wrap; */
+}
+.seconddiv {
+  display: flex;
+}
+.seconddiv img {
+  margin-top: 20px;
+  margin-left: 50px;
+  align-content: center;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.neximg {
+  width: 70%;
+  height: 70%;
+}
+.select {
+  display: flex;
+  gap: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: smaller;
+  font-weight: 100;
+}
+.reg {
+  height: 30px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: green;
+  align-content: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+.log {
+  height: 30px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: green;
+  align-content: center;
+  text-align: center;
+  color: white;
+}
+.reg:hover {
+  height: 30px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: rgba(27, 23, 26, 0.5);
+  align-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.log:hover {
+  height: 30px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: rgb(0, 128, 100);
+  align-content: center;
+  text-align: center;
+  color: white;
+  cursor: progress;
+}
+/* navbar ends here */
+/* hero begins here */
+.parentdiv1 {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  width: 95%;
+  align-items: center;
+  align-content: center;
+}
+.parentdiv1 {
+  width: 100%;
+}
+.text1 {
+  margin-left: 50px;
+}
+.span {
+  font-size: xx-large;
+  margin-right: 100px;
+  margin-top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: 600;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.text3 {
+  margin-top: 40px;
+  color: green;
+  font-weight: 600;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 50px;
+}
+.png {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.grow {
+  margin-left: 50px;
+  color: gray;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.register {
+  margin-left: 50px;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: green;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+}
+.image {
+  margin-left: 100px;
+}
+/* hero ends here */
+/* ourclient */
+.parentclient {
+  height: 60vh;
+}
+.ourclient {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: 200;
+  margin-top: 30px;
+}
+.pee {
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: medium;
+  margin-top: 10px;
+}
+.imgselect {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.text4 {
+  text-align: center;
+  justify-content: center;
+  width: 95%;
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* our client ends */
+/* membership begins here */
+.item1 {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+.item2 {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+.item3 {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+  align-items: center;
+}
+.container {
+  display: flex;
+  text-align: center;
+  gap: 50px;
+  width: 95%;
+  justify-content: space-evenly;
+  height: auto;
+  margin-left: 40px;
+}
+.item {
+  margin-bottom: 30px;
+  font-size: large;
+  font-weight: 30;
+  font-family: sans-serif;
+}
+.items {
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+/* membership ends here */
+.theunseenparent {
+  height: 80vh;
+}
+.theunseen {
+  display: flex;
+}
+.write {
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  margin: 40px;
+}
+.writeup1 {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.lorem112 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(83, 76, 76);
+  font-weight: 300;
+  font-style: normal;
+}
+.button {
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+#lin {
+  color: white;
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.button:hover {
+  height: 50px;
+  width: 150px;
+  background-color: rgba(27, 23, 26, 0.5);
+  color: wheat;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: all-scroll;
+}
+.hellpsection {
+  padding-top: 30px;
+  margin-top: 70px;
+  height: 50vh;
+  background-color: whitesmoke;
+  justify-content: space-evenly;
+}
+.hellparent {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.span {
+  font-weight: bolder;
+  font: 1em sans-serif;
+  font-size: x-large;
+  color: black;
+}
+.span2 {
+  font-weight: bolder;
+  font: 1em sans-serif;
+  font-size: x-large;
+  color: green;
+}
+.pan3 {
+  margin-top: 5px;
+}
+.pan2 {
+  font: 1em sans-serif;
+  margin-top: 18px;
+}
+.outline008 {
+  align-content: center;
+}
+.iconsec {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: 2fr 2fr;
+  gap: 50px;
+}
+.number {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.numb {
+  font: 1em sans-serif;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: small;
+  color: gray;
+}
+.vist {
+  margin-top: 29px;
+  display: flex;
+  text-align: left;
+  gap: 20px;
+}
+.bar {
+  display: none;
+  margin-right: -400px;
+  margin-top: -30px;
+}
+.care {
+  text-align: center;
+  height: 70vh;
+}
+.caring {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 85px;
+}
+.thenet {
+  margin-top: 5px;
+  margin-left: 280px;
+  margin-right: 250px;
+  font-family: sans-serif;
+  font-size: medium;
+}
+.careimage {
+  display: flex;
+  margin-top: 20px;
+}
+.jjam div img {
+  height: 280px;
+  width: 370px;
+}
+.jjam {
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+.cctex {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 18vh;
+  margin: -50px 43px;
+  width: 25%;
+  position: absolute;
+}
+.cctex h3 {
+  margin: 22px;
+  color: hsl(0, 0%, 50%);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bbtxx {
+  width: 120px;
+  height: 38px;
+  margin: 20px 100px;
+  color: white;
+  background-color: darkgreen;
+  align-content: center;
+  border-radius: 10px;
+}
+.footer {
+  background-color: rgb(48, 47, 47);
+  height: 55vh;
+  color: white;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.horizontal {
+  margin-top: 20px;
+}
+.footerdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footerdiv div {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.footer p {
+  font-size: medium;
+  color: silver;
+  transition: 0.3s ease-in-out;
+}
+.footer p:hover {
+  font-size: medium;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.footer h1 {
+  font-size: large;
+}
+.p {
+  padding-top: 50px;
+}
+.copy {
+  font-size: medium;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+.spread p {
+  margin-top: 10px;
+}
+.iconss {
+  display: flex;
+  margin-left: 30px;
+  gap: ;
+}
+@media (max-width: 1024px) {
+  /* .neximg {
+    height: 20px;
+    width: 20px;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  @media (max-width: 1024px) {
+    /* Adjust navbar layout for tablet screens */
+    .parentdiv {
+      height: auto; /* Ensure height adjusts based on content */
+      flex-direction: row; /* Keep items in a row */
+      justify-content: space-between; /* Space items evenly */
+      padding: 10px; /* Adjust padding for spacing */
+    }
+
+    .seconddiv {
+      margin-bottom: 10px; /* Increase space below the logo */
+    }
+
+    .neximg img {
+      height: 40px; /* Adjust logo size for better fit */
+      width: auto; /* Maintain aspect ratio */
+    }
+
+    .select {
+      flex-direction: row; /* Keep menu items in a row */
+      gap: 10px; /* Increase spacing between menu items */
+    }
+
+    .reg,
+    .log {
+      width: auto; /* Adjust button width */
+      height: 35px; /* Increase button height for better usability */
+      margin: 0 5px; /* Add horizontal margins between buttons */
+    }
+
+    .parentdiv1 {
+      flex-direction: row; /* Align hero section content in a row */
+      justify-content: center; /* Center content horizontally */
+      padding: 20px; /* Adjust padding for better spacing */
+    }
+
+    .text1 {
+      text-align: left; /* Align text to the left */
+      margin: 0; /* Remove margin */
+    }
+
+    .span,
+    .text3 {
+      font-size: medium; /* Adjust font size for readability */
+      margin: 10px 0; /* Add vertical margin */
+    }
+
+    .grow {
+      font-size: medium; /* Adjust font size */
+      margin: 10px 0; /* Add vertical margin */
+    }
+
+    .register {
+      width: auto; /* Adjust width for better fit */
+      height: 40px; /* Increase button height */
+      margin-top: 20px; /* Adjust margin top for spacing */
+    }
+
+    .image img {
+      width: 100%; /* Make image responsive */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    .item1,
+    .item2,
+    .item3 {
+      width: 100%; /* Ensure items are full width */
+      height: auto; /* Adjust height based on content */
+      margin-bottom: 15px; /* Increase spacing between items */
+    }
+
+    .container {
+      flex-direction: row; /* Keep items in a row */
+      gap: 15px; /* Increase spacing between items */
+      margin-left: 0; /* Remove left margin */
+      margin-right: 0; /* Remove right margin */
+    }
+
+    .theunseenparent {
+      height: auto; /* Adjust height based on content */
+      padding: 20px; /* Increase padding */
+    }
+
+    .write {
+      text-align: left; /* Align text to the left */
+      margin: 20px; /* Add margin around text */
+    }
+
+    .writeup1 {
+      font-size: medium; /* Adjust font size */
+      margin-bottom: 20px; /* Increase bottom margin */
+    }
+
+    .lorem112 {
+      font-size: medium; /* Adjust font size */
+      margin: 0; /* Remove margin */
+    }
+
+    .button {
+      width: auto; /* Adjust button width */
+      height: 40px; /* Increase button height */
+      margin-top: 20px; /* Adjust margin top */
+    }
+
+    .care {
+      height: auto; /* Adjust height based on content */
+      padding: 20px; /* Increase padding */
+    }
+
+    .careimage {
+      flex-direction: row; /* Align images in a row */
+      justify-content: center; /* Center images horizontally */
+    }
+
+    .jjam {
+      width: auto; /* Adjust width */
+      margin: 10px; /* Add margin */
+      text-align: center; /* Center text */
+    }
+
+    .jjam div img {
+      width: 100%; /* Make image responsive */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    .footer {
+      height: auto; /* Adjust height based on content */
+      padding: 20px; /* Increase padding */
+    }
+
+    .footerdiv {
+      flex-direction: row; /* Align footer sections in a row */
+      justify-content: space-between; /* Space sections evenly */
+    }
+
+    .footerdiv div {
+      margin: 10px; /* Add margin around footer sections */
+    }
+  }
+}
+@media (max-width: 834px) {
+  .neximg {
+    height: 20px;
+    width: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 834px) {
+    .parentdiv {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .seconddiv {
+      margin-bottom: 10px;
+    }
+
+    .neximg img {
+      height: 40px;
+      width: auto;
+    }
+
+    .select {
+      flex-direction: column;
+      gap: 10px;
+      margin: 0;
+      display: none;
+    }
+
+    .reg,
+    .log {
+      width: 80%;
+      margin-bottom: 10px;
+      height: 35px;
+    }
+
+    .parentdiv1 {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .text1 {
+      text-align: center;
+      margin: 0;
+    }
+
+    .span,
+    .text3 {
+      font-size: large;
+      margin: 10px 0;
+    }
+
+    .grow {
+      font-size: medium;
+      margin: 10px 0;
+    }
+
+    .register {
+      width: 100%;
+      margin-top: 20px;
+      height: 40px;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .bar {
+      display: block;
+    }
+    .item1,
+    .item2,
+    .item3 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      flex-direction: column;
+      gap: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .theunseenparent {
+      height: auto;
+      padding: 20px;
+    }
+
+    .write {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .writeup1 {
+      font-size: large;
+      margin-bottom: 20px;
+    }
+
+    .lorem112 {
+      font-size: medium; /* Adjust font size */
+      margin: 0;
+    }
+
+    .button {
+      width: 100%;
+      height: 45px;
+      margin-top: 20px;
+    }
+
+    .care {
+      height: auto;
+      padding: 20px;
+    }
+
+    .careimage {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .jjam {
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    .jjam div img {
+      width: 100%;
+      height: auto;
+    }
+
+    .footer {
+      height: auto;
+      padding: 20px;
+    }
+
+    .footerdiv {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footerdiv div {
+      margin: 10px 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .neximg {
+      height: 20px;
+      width: 20px;
+    }
+    .img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media (max-width: 768px) {
+      /* Navbar adjustments */
+      .parentdiv {
+        height: auto; /* Allow height to adjust based on content */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 10px; /* Add padding */
+      }
+
+      .seconddiv {
+        margin-bottom: 10px; /* Adjust spacing below the logo */
+      }
+
+      .neximg img {
+        height: 35px; /* Adjust logo size for smaller screens */
+        width: auto; /* Maintain aspect ratio */
+        margin-left: -220px;
+        margin-top: -8px;
+      }
+
+      .select {
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 8px; /* Adjust spacing between menu items */
+        margin: 0; /* Remove horizontal margins */
+      }
+
+      .reg,
+      .log {
+        width: 90%; /* Make buttons wider for touch accessibility */
+        margin-bottom: 10px; /* Add spacing between buttons */
+        height: 30px; /* Adjust button height for better fit */
+      }
+
+      .parentdiv1 {
+        flex-direction: column; /* Stack hero section content vertically */
+        align-items: center; /* Center hero section content horizontally */
+        padding: 15px; /* Add padding around the section */
+      }
+
+      .text1 {
+        text-align: center; /* Center text for smaller screens */
+        margin: 0; /* Remove left margin */
+      }
+
+      .span,
+      .text3 {
+        font-size: medium; /* Adjust font size for better readability */
+        margin: 8px 0; /* Adjust margin for vertical spacing */
+      }
+
+      .grow {
+        font-size: small; /* Adjust font size */
+        margin: 8px 0; /* Adjust margin for vertical spacing */
+      }
+
+      .register {
+        width: 100%; /* Make register button full width */
+        margin-top: 15px; /* Adjust margin top for spacing */
+        height: 35px; /* Adjust button height */
+      }
+
+      .image img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .item1,
+      .item2,
+      .item3 {
+        width: 100%; /* Make items full width */
+        height: auto; /* Adjust height based on content */
+        margin-bottom: 15px; /* Add spacing between items */
+      }
+
+      .container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 15px; /* Adjust spacing between items */
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+      }
+
+      .theunseenparent {
+        height: auto; /* Adjust height based on content */
+        padding: 15px; /* Add padding */
+      }
+
+      .write {
+        text-align: center; /* Center text for smaller screens */
+        margin: 15px; /* Add margin around text */
+      }
+
+      .writeup1 {
+        font-size: medium; /* Adjust font size */
+        margin-bottom: 15px; /* Adjust margin bottom */
+      }
+
+      .lorem112 {
+        font-size: small; /* Adjust font size */
+        margin: 0; /* Remove margin */
+      }
+
+      .button {
+        width: 100%; /* Make button full width */
+        height: 40px; /* Adjust button height */
+        margin-top: 15px; /* Adjust margin top */
+      }
+
+      .care {
+        height: auto; /* Adjust height based on content */
+        padding: 15px; /* Add padding */
+      }
+
+      .careimage {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center images */
+      }
+
+      .jjam {
+        width: 100%; /* Make items full width */
+        margin: 10px 0; /* Adjust margin */
+        text-align: center; /* Center text */
+      }
+
+      .jjam div img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .footer {
+        height: auto; /* Adjust height based on content */
+        padding: 15px; /* Add padding */
+      }
+
+      .footerdiv {
+        flex-direction: column; /* Stack footer sections vertically */
+        align-items: center; /* Center items */
+      }
+
+      .footerdiv div {
+        margin: 10px 0; /* Add vertical margin */
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    @media (max-width: 480px) {
+      /* Navbar adjustments */
+      .parentdiv {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        display: none;
+      }
+
+      .seconddiv {
+        margin-bottom: 5px;
+      }
+
+      .neximg img {
+        height: 30px;
+        width: auto;
+        margin-top: -100px;
+      }
+
+      .select {
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 5px; /* Adjust spacing between menu items */
+        margin: 0; /* Remove horizontal margins */
+        display: none;
+      }
+
+      .reg,
+      .log {
+        width: 100%; /* Make buttons full width */
+        margin-bottom: 5px; /* Add spacing between buttons */
+        height: 25px; /* Reduce button height */
+      }
+
+      .parentdiv1 {
+        flex-direction: column; /* Stack hero section content vertically */
+        align-items: center; /* Center hero section content horizontally */
+        padding: 10px; /* Reduce padding around the section */
+      }
+
+      .text1 {
+        text-align: center; /* Center text */
+        margin: 0; /* Remove margin */
+      }
+
+      .span,
+      .text3 {
+        font-size: small; /* Adjust font size for readability */
+        margin: 5px 0; /* Adjust margin for vertical spacing */
+      }
+
+      .grow {
+        font-size: smaller; /* Adjust font size */
+        margin: 5px 0; /* Adjust margin for vertical spacing */
+      }
+
+      .register {
+        width: 100%; /* Make register button full width */
+        margin-top: 10px; /* Adjust margin top for spacing */
+        height: 30px; /* Adjust button height */
+      }
+
+      .image img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .item1,
+      .item2,
+      .item3 {
+        width: 100%; /* Make items full width */
+        height: auto; /* Adjust height based on content */
+        margin-bottom: 10px; /* Add spacing between items */
+      }
+
+      .container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 10px; /* Adjust spacing between items */
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+      }
+
+      .theunseenparent {
+        height: auto; /* Adjust height based on content */
+        padding: 10px; /* Reduce padding */
+      }
+
+      .write {
+        text-align: center; /* Center text */
+        margin: 10px; /* Add margin around text */
+      }
+
+      .writeup1 {
+        font-size: small; /* Adjust font size */
+        margin-bottom: 10px; /* Adjust margin bottom */
+      }
+
+      .lorem112 {
+        font-size: smaller; /* Adjust font size */
+        margin: 0; /* Remove margin */
+      }
+
+      .button {
+        width: 100%; /* Make button full width */
+        height: 35px; /* Adjust button height */
+        margin-top: 10px; /* Adjust margin top */
+      }
+
+      .care {
+        height: auto; /* Adjust height based on content */
+        padding: 10px; /* Reduce padding */
+      }
+
+      .careimage {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center images */
+      }
+
+      .jjam {
+        width: 100%; /* Make items full width */
+        margin: 5px 0; /* Adjust margin */
+        text-align: center; /* Center text */
+      }
+
+      .jjam div img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .footer {
+        height: auto; /* Adjust height based on content */
+        padding: 10px; /* Reduce padding */
+      }
+
+      .footerdiv {
+        flex-direction: column; /* Stack footer sections vertically */
+        align-items: center; /* Center items */
+      }
+
+      .footerdiv div {
+        margin: 5px 0; /* Add vertical margin */
+      }
+    }
+  }
+}
