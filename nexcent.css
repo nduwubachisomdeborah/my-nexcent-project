@@ -84,7 +84,7 @@ a {
 /* navbar ends here */
 /* hero begins here */
 .parentdiv1 {
-  height: 100vh;
+  height: 110vh;
   background-color: whitesmoke;
   display: flex;
   width: 95%;
@@ -140,6 +140,7 @@ a {
 }
 .image {
   margin-left: 100px;
+  margin-top: 100px;
 }
 /* hero ends here */
 /* ourclient */
@@ -450,7 +451,6 @@ a {
 .iconss {
   display: flex;
   margin-left: 30px;
-  gap: ;
 }
 @media (max-width: 1024px) {
   /* .neximg {
@@ -495,7 +495,8 @@ a {
     .parentdiv1 {
       flex-direction: row; /* Align hero section content in a row */
       justify-content: center; /* Center content horizontally */
-      padding: 20px; /* Adjust padding for better spacing */
+      padding-bottom: -300px; /* Adjust padding for better spacing */
+      /* margin-top: 100px; */
     }
 
     .text1 {
@@ -629,6 +630,8 @@ a {
     .neximg img {
       height: 40px;
       width: auto;
+      margin-left: -350px;
+      margin-top: -10px;
     }
 
     .select {
@@ -644,11 +647,16 @@ a {
       margin-bottom: 10px;
       height: 35px;
     }
+    .herodiv {
+      margin-top: 150px;
+    }
 
     .parentdiv1 {
       flex-direction: column;
       align-items: center;
       padding: 20px;
+      height: 150vh;
+      padding-bottom: 100px;
     }
 
     .text1 {
@@ -915,7 +923,7 @@ a {
     @media (max-width: 480px) {
       /* Navbar adjustments */
       .parentdiv {
-        height: auto;
+        height: 20px;
         flex-direction: column;
         align-items: center;
         padding: 5px;
@@ -933,126 +941,129 @@ a {
       }
 
       .select {
-        flex-direction: column; /* Stack menu items vertically */
-        gap: 5px; /* Adjust spacing between menu items */
-        margin: 0; /* Remove horizontal margins */
+        flex-direction: column; 
+        gap: 5px; 
+        margin: 0; 
         display: none;
       }
 
       .reg,
       .log {
-        width: 100%; /* Make buttons full width */
-        margin-bottom: 5px; /* Add spacing between buttons */
-        height: 25px; /* Reduce button height */
+        width: 100%;
+        margin-bottom: 5px;
+        height: 25px; 
       }
 
       .parentdiv1 {
-        flex-direction: column; /* Stack hero section content vertically */
-        align-items: center; /* Center hero section content horizontally */
-        padding: 10px; /* Reduce padding around the section */
+        flex-direction: column;
+        align-items: center;
+        padding: 10px; 
+        height: 50vh;
+        padding-top: 50vh;
+        padding-bottom: 50vh;
       }
 
       .text1 {
-        text-align: center; /* Center text */
-        margin: 0; /* Remove margin */
+        text-align: center;
+        margin: 0; 
       }
 
       .span,
       .text3 {
-        font-size: small; /* Adjust font size for readability */
-        margin: 5px 0; /* Adjust margin for vertical spacing */
+        font-size: small;
+        margin: 5px 0; 
       }
 
       .grow {
-        font-size: smaller; /* Adjust font size */
-        margin: 5px 0; /* Adjust margin for vertical spacing */
+        font-size: smaller; 
+        margin: 5px 0; 
       }
 
       .register {
-        width: 100%; /* Make register button full width */
-        margin-top: 10px; /* Adjust margin top for spacing */
-        height: 30px; /* Adjust button height */
+        width: 100%;
+        margin-top: 10px; 
+        height: 30px; 
       }
 
       .image img {
-        width: 100%; /* Make image responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        height: auto; 
       }
 
       .item1,
       .item2,
       .item3 {
-        width: 100%; /* Make items full width */
-        height: auto; /* Adjust height based on content */
-        margin-bottom: 10px; /* Add spacing between items */
+        width: 100%; 
+        height: auto;
+        margin-bottom: 10px; 
       }
 
       .container {
-        flex-direction: column; /* Stack items vertically */
-        gap: 10px; /* Adjust spacing between items */
-        margin-left: 0; /* Remove left margin */
-        margin-right: 0; /* Remove right margin */
+        flex-direction: column;
+        gap: 10px; 
+        margin-left: 0; 
+        margin-right: 0; 
       }
 
       .theunseenparent {
-        height: auto; /* Adjust height based on content */
-        padding: 10px; /* Reduce padding */
+        height: auto; 
+        padding: 10px; 
       }
 
       .write {
-        text-align: center; /* Center text */
-        margin: 10px; /* Add margin around text */
+        text-align: center;
+        margin: 10px; 
       }
 
       .writeup1 {
-        font-size: small; /* Adjust font size */
-        margin-bottom: 10px; /* Adjust margin bottom */
+        font-size: small; 
+        margin-bottom: 10px; 
       }
 
       .lorem112 {
-        font-size: smaller; /* Adjust font size */
-        margin: 0; /* Remove margin */
+        font-size: smaller; 
+        margin: 0;
       }
 
       .button {
-        width: 100%; /* Make button full width */
-        height: 35px; /* Adjust button height */
-        margin-top: 10px; /* Adjust margin top */
+        width: 100%; 
+        height: 35px; 
+        margin-top: 10px; 
       }
 
       .care {
-        height: auto; /* Adjust height based on content */
-        padding: 10px; /* Reduce padding */
+        height: auto; 
+        padding: 10px;
       }
 
       .careimage {
-        flex-direction: column; /* Stack images vertically */
-        align-items: center; /* Center images */
+        flex-direction: column;
+        align-items: center;
       }
 
       .jjam {
-        width: 100%; /* Make items full width */
-        margin: 5px 0; /* Adjust margin */
-        text-align: center; /* Center text */
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
       }
 
       .jjam div img {
-        width: 100%; /* Make image responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
       }
 
       .footer {
-        height: auto; /* Adjust height based on content */
-        padding: 10px; /* Reduce padding */
+        height: auto;
+        padding: 10px;
       }
 
       .footerdiv {
-        flex-direction: column; /* Stack footer sections vertically */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        align-items: center;
       }
 
       .footerdiv div {
-        margin: 5px 0; /* Add vertical margin */
+        margin: 5px 0;
       }
     }
   }
